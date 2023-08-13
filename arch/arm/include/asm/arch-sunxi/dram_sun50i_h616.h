@@ -36,7 +36,9 @@ struct sunxi_mctl_com_reg {
 	u32 maer0;		/* 0x020 master enable register 0 */
 	u32 maer1;		/* 0x024 master enable register 1 */
 	u32 maer2;		/* 0x028 master enable register 2 */
-	u8 reserved_0x02c[468];	/* 0x02c */
+	u8 reserved_0x02c[36];	/* 0x02c */
+	u32 unk_0x050;		/* 0x050 */
+	u8 reserved_0x054[428];	/* 0x054 */
 	u32 bwcr;		/* 0x200 bandwidth control register */
 	u8 reserved_0x204[12];	/* 0x204 */
 	/*
